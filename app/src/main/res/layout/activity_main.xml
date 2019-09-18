@@ -40,4 +40,44 @@
         android:progress="15"
         android:padding="@dimen/default_padding" />
 
+    <TextView
+        android:id="@+id/textViewTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tip"
+        android:textSize="@dimen/default_text_size"
+        android:padding="@dimen/default_padding"
+        app:layout_constraintStart_toStartOf="@id/editTextAmount"
+        app:layout_constraintTop_toBottomOf="@id/textViewTipPercent" />
+
+    <TextView
+        android:id="@+id/textViewTipAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/default_text_size"
+        android:padding="@dimen/default_padding"
+        app:layout_constraintStart_toEndOf="@id/textViewTip"
+        app:layout_constraintTop_toTopOf="@id/textViewTip"
+        android:textAlignment="viewEnd" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/default_text_size"
+        android:padding="@dimen/default_padding"
+        android:text="@string/total"
+        app:layout_constraintStart_toStartOf="@id/textViewTip"
+        app:layout_constraintTop_toBottomOf="@id/textViewTip" />
+
+    <TextView
+        android:id="@+id/textViewTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/default_text_size"
+        android:padding="@dimen/default_padding"
+        app:layout_constraintStart_toEndOf="@id/textViewTotal"
+        app:layout_constraintTop_toTopOf="@id/textViewTotal"
+        android:textAlignment="viewEnd" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
