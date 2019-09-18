@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/default_text_size"
         android:padding="@dimen/default_padding"
-        app:layout_constraintStart_toEndOf="@id/textViewTip"
+        app:layout_constraintEnd_toEndOf="@id/editTextAmount"
         app:layout_constraintTop_toTopOf="@id/textViewTip"
         android:textAlignment="viewEnd" />
 
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/default_text_size"
         android:padding="@dimen/default_padding"
-        app:layout_constraintStart_toEndOf="@id/textViewTotal"
+        app:layout_constraintEnd_toEndOf="@id/editTextAmount"
         app:layout_constraintTop_toTopOf="@id/textViewTotal"
         android:textAlignment="viewEnd" />
 
